@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Medical history</title>
+	 <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Index</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/themify-icons.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+    
+
+</head>
+<body>
+	<div class="container">
+		<h2>Medical History</h2>
+<hr>
+
+<div>
+<label>Full name</label><!-- <p style="color: red;">*</p> -->
+<input type="text" id="firstname">
+<input type="text" id="lastname"><br><br>
+
+<label>Phone number</label>
+<input type="text" id="areacode">
+<input type="text" id="phoneno"><br><br>
+
+<h5><b>check the conditions that apply to you or to any number of your immediate relatives:<danger>*</danger></b></h5>
+<input type="checkbox" id="asthma" value="asthma"> Asthma<br>
+<input type="checkbox" id="cancer" value="cancer"> Cancer<br>
+<!-- <input type="checkbox" id="Cardiac-disease">&nbsp Cardiac disease<br>
+<input type="checkbox" id="Diabetes">&nbsp Diabetes<br>
+<input type="checkbox" id="Hypertension">&nbsp Hypertension<br>
+<input type="checkbox" id="psychiatric-disorder">&nbsp psychiatric disorder<br>
+<input type="checkbox" id="elliepsy">&nbsp elliepsy<br><br> -->
+
+<p id="symptoms"><b>check the symptoms that you're  currently experiencing:<danger>*</danger></b></p>
+<input type="checkbox"  value="chestpain" name="symptoms"> ChestPain <br>
+<input type="checkbox" value="cardiacdisease" name="symptoms"> Cardiacdisease<br>
+<input type="checkbox"  value="respiratory" name="symptoms"> Respiratory<br>
+<input type="checkbox"  value="cardiovascular" name="symptoms"> Cardiovascular<br>
+<!-- <input type="checkbox" id="Hemotolgical"> Hemotolgical<br>
+<input type="checkbox" id="Lymphatic"> Lymphatic<br>
+<input type="checkbox" id="Neurological"> Neurological<br>
+<input type="checkbox" id="Hypertension"> Hypertension<br>
+<input type="checkbox" id="Weight-loss"> Weight loss<br>
+<input type="checkbox" id="Weight-gain"> Weight gain<br><br> -->
+
+<p><b>Are you currently taking any medication?<danger>*</danger></b></p>
+<input type="radio" name="medication" class="medication" value="yes"> Yes<br>
+<input type="radio" name="medication" class="medication" value="no"> No<br><br>
+
+
+<p><b>Do you have any medication allergies?:<danger>*</danger></b></p>
+<input type="radio" name="allergies" class="allergies" value="yes"> Yes<br>
+<input type="radio" name="allergies" class="allergies" value="no"> No<br>
+<input type="radio" name="allergies" class="allergies" value="not sure"> Not sure<br><br>
+
+<p><b>What is your gender?:<danger>*</danger></b></p>
+<input type="radio" class ="gender"  name="gender"value="Male"> Male<br>
+<input type="radio" class="gender" name="gender" value="Female"> Female<br><br>
+
+<p><b>Do you use or do you do have any history of tobacco?:<danger>*</danger></b></p>
+<select id="tobacco">
+	<option value="yes" name="tobacco">yes</option>
+	<option value="no" name="tobacco">No</option>
+</select><br><br>
+
+<p><b>Do you use or do you do have any history of using illegal drugs?:<danger>*</danger></b></p>
+<select id="drug">
+	<option value="yes" name="drug" >yes</option>
+	<option value="no" name="drug">No</option>
+</select><br><br>
+
+<p><b>How often do you consume alcohol?:<danger>*</danger></b></p>
+<input type="radio" name="alcohol" id="alcohol" value="daily">Daily
+<input type="radio" name="alcohol" id="alcohol" value="occasionaly">occasionaly
+<input type="radio" name="alcohol" id="alcohol" value="weekly">weekly<br>
+<input type="radio" name="alcohol" id="alcohol" value="monthly">monthly
+<input type="radio" name="alcohol" id="alcohol" value="never">Never<br><br>
+
+
+
+
+
+<button type="submit" class="btn btn-default">Submit</button>
+
+
+
+
+
+</div>
+</div>
+ <script src='assets/js/jquery.min.js'></script>
+    <script src='assets/js/bootstrap.min.js'></script>
+    <script src='assets/js/medical.js'></script>
+</body>
+</html>

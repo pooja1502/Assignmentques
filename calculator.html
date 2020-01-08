@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/themify-icons.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+
+   <title>calculator</title>
+   <style >
+      #result{
+         
+         width: 100%;
+         height: 50px;
+         background-color: #EEEEEE;
+         margin-bottom: 10px;
+        
+      }
+      .number{
+         background-color: #000000;
+             width: 120px;
+         height: 50px;
+            border-radius: 8px;
+            color: white;
+            
+      }
+      .operation{
+         background-color: #646060;
+         border-radius: 8px;
+         height: 50px;
+         width: 120px;
+         color: white;
+      }
+      .container{
+         background-color: #CCCCCC;
+            width: 500px;
+         padding-top: 10px;
+         padding-bottom: 10px;
+      }
+      tr{
+         padding: 80px;
+         margin: 20px;
+      }
+   </style>
+</head>
+<body>
+   
+   <div class="container">
+
+   
+         
+         <table> 
+         <tr> 
+            <td colspan="4"><input type="text" id="result"/></td> 
+         </tr> 
+
+
+         <tr> 
+            <td><input type="button" value="1" class="number" id="one" /> </td> 
+            <td><input type="button" value="2" class="number" id="two" /> </td> 
+            <td><input type="button" value="3" class="number" id="three" /> </td> 
+            <td><input type="button" value="0" class="number" id="zero" /> </td> 
+         </tr>
+         <tr > 
+            <td><input type="button" value="4" class="number" id="four" /> </td> 
+            <td><input type="button" value="5" class="number" id="five" /> </td> 
+            <td><input type="button" value="6" class="number" id="six" /> </td> 
+            <td><input type="button" value="cl" class="operation" id="cl" /> </td> 
+         </tr> 
+         <tr> 
+            <td><input type="button" value="7" class="number" id="seven" /> </td> 
+            <td><input type="button" value="8" class="number" id="eight" /> </td> 
+            <td><input type="button" value="9" class="number" id="nine" /> </td> 
+            <td><input type="button" value="=" class="operation" id="eq" /> </td> 
+         </tr> 
+           <tr> 
+            <td><input type="button" value="+" class="operation" id="sum" /> </td> 
+            <td><input type="button" value="-" class="operation" id="sub" /> </td> 
+            <td><input type="button" value="*" class="operation" id="mul" /> </td> 
+            <td><input type="button" value="/"  class="operation" id="division"/> </td> 
+         </tr> 
+        
+      </table> 
+      </div>
+      </body> 
+</html>  
+      
+<script src='assets/js/jquery.min.js'></script>
+    <script src='assets/js/bootstrap.min.js'></script>
+    <script src='assets/js/calculator.js'></script>
+</body>
+</html>

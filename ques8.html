@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/themify-icons.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+</head>
+	
+<body>
+
+
+<div class="container">
+<div class="row">
+<div class="col-lg-2"></div>
+
+<div class="col-lg-8">
+
+	<form style="margin-top: 20px;">
+        <label>Enter id:</label>
+        <input type="text" id="text" placeholder="ID" class="form-control"><br>
+        <label>Enter username:</label>
+        <input type="text" id="text1" placeholder="USERNAME" class="form-control"><br><br>
+        <label>Enter phone number:</label>
+         <input type="text" id="text2" placeholder="PHONE NUMBER" class="form-control"><br><br>
+         <label>Enter email:</label>
+          <input type="text" id="text3" placeholder="EMAIL" class="form-control"><br><br>
+          <label>Image upload</label>
+          <input type="file" name="" id="image" placeholder="image" class="form-control">
+        <input type="button" id="addrow" value="addrow" class="btn btn-primary">
+    </form><br>
+    <table class=" table table-bordered">
+        <thead>
+            <tr>
+                <th>Select</th>
+                <th>ID</th>
+                <th>USERNAME</th>
+                <th>PHONE</th>
+                <th>EMAIL</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" name="record"></td>
+                <td>101</td>
+                <td>POOJA</td>
+                <td>9009013115</td>
+                <td>sdfjh@gmail.com</td>
+                <td><img src="img/f4.jpg" style="width: 120px; height: 100px;"></td>
+            </tr>
+             <tr>
+                <td><input type="checkbox" name="record"></td>
+                <td>102</td>
+                <td>PALAK</td>
+                <td>8770068460</td>
+                <td>sdjfbskjdf@gmail.com</td>
+                <td><img src="img/f3.jpg" style="width: 120px; height: 100px;"></td>
+            </tr>
+             <tr>
+                <td><input type="checkbox" name="record"></td>
+                <td>103</td>
+                <td>PRITUL</td>
+                <td>9893556618</td>
+                <td>dfdg@gmail.com</td>
+                <td><img src="img/f5.jpg" style="width: 120px; height: 100px;"></td>
+            
+            </tr>
+        </tbody>
+    </table>
+    <button type="button" id="deleterow" class="btn btn-danger">Delete Row</button>
+
+			
+</div>
+</div>
+</div>
+
+<script src='assets/js/jquery.min.js'></script>
+    <script src='assets/js/bootstrap.min.js'></script>
+    <script src='assets/js/ques8.js'></script>
+</body>
+</html>

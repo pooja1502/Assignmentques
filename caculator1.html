@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>javascript</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- alert -->
+
+<script type="text/javascript">
+
+alert("successfully submitted data"); 
+
+</script>
+
+<!-- add two no -->
+<!-- calculator -->
+
+    <div class="container">
+	<div class="row">
+
+	<div class="col-lg-2"></div>
+
+	<div class="col-lg-10" style= "text-align: center; margin-top: 250px ;">
+    <form name="calculator">
+
+    <table>
+	
+	<tr>
+	<input type="text" name="display" id="display" disabled>
+
+    </tr><br>
+    <tr>
+
+<input type="button" name="one" value="1" onclick="calculator.display.value+='1'">	
+<input type="button" name="two" value="2" onclick="calculator.display.value+='2'">	
+<input type="button" name="three" value="3" onclick="calculator.display.value+='3'">	
+<input type="button" name="+"  value="+" class="operator" onclick="calculator.display.value+='+'">
+
+</tr><br>
+<tr>
+
+<input type="button" name="four" value="4" onclick="calculator.display.value+='4'">	
+<input type="button" name="five" value="5" onclick="calculator.display.value+='5'">	
+<input type="button" name="six" value="6" onclick="calculator.display.value+='6'">	
+<input type="button" name="-"  value="-" class="operator" onclick="calculator.display.value+='-'">
+</tr><br>
+<tr>
+
+<input type="button" name="seven" value="7" onclick="calculator.display.value+='7'">	
+<input type="button" name="eight" value="8" onclick="calculator.display.value+='8'">	
+<input type="button" name="nine" value="9" onclick="calculator.display.value+='9'">	
+<input type="button" name="*"  value="*" class="operator" onclick="calculator.display.value+='*'">
+</tr><br>
+<tr>
+
+<input type="button" name="zero" value="0" onclick="calculator.display.value+='0'">	
+<input type="button" name="=" value="=" onclick="calculator.display.value=eval(calculator.display.value)">	
+<input type="button" name="/" value="/" onclick="calculator.display.value+='/'">
+<input type="button" name="clear" value="c" onclick="calculator.display.value=''">
+
+</tr>
+</table>
+</form>
+</div>
+</div>
+</div>
+
+
+<!-- calculator -->
+<!-- addition -->
+</body>
+</html>
+
+
+
+

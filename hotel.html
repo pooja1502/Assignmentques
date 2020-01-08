@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotel booking</title>
+	<meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/themify-icons.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+				<div class="row">
+					<h1><b>Hotel Booking</b></h1>
+					<hr><br>
+					<label>Name</label>
+					<input type="text" name="" id="fname" style="width: 200px; height: 30px; margin-left: 205px;">
+					<input type="text" name="" id="lname" style="width: 200px; height: 30px; ">
+					</div><br>
+
+					<div class="row">
+					<label>E-mail</label>
+					<input type="text" name="" id="email" style="width: 400px; height: 30px; margin-left: 200px;"><br><br>
+					</div>
+
+					<div class="row">
+					<label>Room-Type</label>
+					<select style="margin-left: 165px;; height: 30px; width: 400px; " id="room">
+					<option value=""></option>
+					<option>indore</option>
+					<option>ujjain</option>
+					<option>pune</option>
+					</select>
+					</div><br><br>
+
+					<div class="row">
+					<label>No of guests</label>
+					<input type="number" name="" id="guests" style="width: 400px; height: 30px; margin-left: 155px;"><br><br>
+					</div>
+
+					<div class="row">
+					<label>Arrival date & time</label>
+					<input type="text" name="" style="width: 100px; height: 30px; margin-left: 115px" placeholder="12">
+					<input type="text" name="" style="width: 100px; height: 30px;" placeholder="6">
+					<input type="text" name="" style="width: 100px; height: 30px;" placeholder="9"><br><br>
+					</div>
+
+					<div class="row">
+						<select style="height: 30px; width: 100px; margin-left: 240px" id="hour">
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					</select>
+					<select style="height: 30px; width: 100px;" id="min">
+					<option>00</option>
+					<option>01</option> 
+					<option>02</option>
+					</select>
+					<select style="height: 30px; width: 50px;" id="time">
+					<option>P.M</option>
+					<option>A.M</option>
+					</select>
+					</div><br>
+
+					<div class="row">
+						<label>Departure Date</label>
+						<select style="height: 30px; width: 100px; margin-left: 135px" id="month">
+							<option value=""></option>
+					<option>january</option>
+					<option>fbruary</option>
+					<option>march</option>
+					</select>
+					<select style="height: 30px; width: 100px;" id="day">
+					<option value=""></option>
+					<option>monday</option>
+					<option>tuesday</option>
+					</select>
+					<select style="height: 30px; width: 50px;" id="year">
+					<option></option>
+					<option>1998</option>
+					<option>1997</option>
+					</select>
+					</div><br>
+
+					<div class="row">
+						<label id="pickup">Free Pickup??</label>
+						<input type="radio" name="pickup" class="pickup" value="yes" style="margin-left: 135px;"> Yes please!- pick me up on arrival time<br>
+						<input type="radio" name="pickup" class="pickup" value="no" style="margin-left: 235px"> No thanks!- I'll make my own way there
+					</div><br>
+
+					<div class="row">
+						<label>Flight number</label>
+						<input type="text" name="" id="flight" style="margin-left: 140px">
+					</div><br>
+
+					<div class="row">
+						<label>Special Request</label>
+						<textarea rows="8" cols="70" id="requests" style="margin-left: 125px"></textarea>
+					</div>
+
+					<div class="row" style="margin-left: 10px; text-align: center;">
+					<button type="submit" class="btn btn-default" style="background-color: orange; border-radius: 8px;">Submit</button>
+					</div>
+					</div>
+
+	<script src='assets/js/jquery.min.js'></script>
+    <script src='assets/js/bootstrap.min.js'></script>
+    <script src='assets/js/hotel.js'></script>
+	</body>
+
+</html>
